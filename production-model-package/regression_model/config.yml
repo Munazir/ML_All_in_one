@@ -1,0 +1,10 @@
+# package overview
+package_name : regression_model
+
+# data files
+training_data_files : train.csv
+testing_data_files : test.csv
+
+# variables
+target : median_house_value
+

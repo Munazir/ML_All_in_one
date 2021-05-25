@@ -2,9 +2,26 @@
 package_name : regression_model
 
 # data files
-training_data_files : train.csv
-testing_data_files : test.csv
+training_data_file : train.csv
+testing_data_file : test.csv
+#pipeline_save_file
+
+test_size: 0.2
+random_state: 100
 
 # variables
 target : median_house_value
+
+features :
+  - longitude
+  - latitude
+  - housing_median_age
+  - total_rooms
+  - total_bedrooms
+  - population
+  - households
+  - median_income
+  - ocean_proximity
+  - rooms_per_household
+  - population_per_household
 

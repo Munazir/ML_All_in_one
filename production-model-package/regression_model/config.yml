@@ -5,7 +5,7 @@ package_name : regression_model
 training_data_file : train.csv
 testing_data_file : test.csv
 #pipeline_save_file
-
+pipeline_save_file : regression_trained_model
 test_size: 0.2
 random_state: 100
 
